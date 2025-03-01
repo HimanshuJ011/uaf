@@ -10,7 +10,7 @@ const HeroSection = () => (
     <div
       className="relative min-h-[400px] md:min-h-[500px] lg:min-h-[615px] w-full flex items-center justify-start bg-amber-900 md:bg-cover md:bg-center md:bg-no-repeat"
       style={{
-        backgroundImage: `@media (min-width: 768px) { url(${PetHero}) }`,
+        backgroundImage: `url(${PetHero}) `,
       }}
     >
       {/* Text Container */}
